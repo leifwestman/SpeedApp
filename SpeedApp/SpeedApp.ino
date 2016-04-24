@@ -19,7 +19,7 @@ unsigned long lastmillis = 0;
 double distance = 0.0;
 double ms = 0.0;
 double constSpeed = 16.666666667;
-
+ 
 void setup() {
 #ifndef __AVR_ATtiny85__
 	Serial.begin(9600);
