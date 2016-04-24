@@ -17,5 +17,9 @@
   <ItemGroup>
     <None Include="SpeedApp.ino" />
   </ItemGroup>
- 
+  <ItemGroup>
+    <ClInclude Include="__vm\.SpeedApp.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
 </Project>
